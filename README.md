@@ -7,7 +7,7 @@ To host this project on your server, simply upload all the repo content on it.
 You will have to adjust the coordinates of your server in the file <code>Database.class.php</code> in whatever way you see fit.
 <br>
 
-Then you will need a new table name `face` like this:
+Then you will need a new table named `face` like this:
 <br>
 
 <code>CREATE TABLE my_database.face ( id INT NOT NULL AUTO_INCREMENT , art LONGTEXT NOT NULL , half-art LONGTEXT NOT NULL , PRIMARY KEY (id))</code>
